@@ -1,0 +1,165 @@
+section{
+  width: 100%;
+  height: 100vh;
+}
+#avocado{
+  background: radial-gradient(40% 40%, #ffffff, #E1E7A1);
+}
+.banner{
+  margin-top: 70px;
+  text-align: center;
+}
+
+.banner > h1{
+  font-size: 2.3em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.banner > p{
+  margin-top: 4px;
+  color: #6c6c6c;
+}
+.banner > p > span{
+  font-weight: bold;
+}
+.banner > img{
+  margin-top: 10px;
+  width: 300px;
+}
+
+
+#about{
+  background: url("../../img/secwall.jpg") no-repeat;
+  background-size: cover;
+}
+
+.about__shape{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.about__shape > h1{
+  font-weight: 400;
+  font-size: 2.3em;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+.about__shape > p{
+  margin-top: 5px;
+  color: #6c6c6c;
+}
+
+.about__shape > img{
+  margin-top: 20px;
+}
+.about__shape > .shape{
+  width: 400px;
+  margin-top: 30px;
+}
+
+#health{
+  background:url("../../img/healthcover.jpg") no-repeat;
+  background-size: cover;
+}
+.health__avocado{
+  padding-top: 10px;
+  text-align: center;
+}
+.health__avocado > h1{
+  font-weight: 400;
+  font-size: 2.3em;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+.health__avocado > p{
+  margin-top: 5px;
+  color: #6c6c6c;
+}
+
+#transform{
+  background:url("../../img/forthback.jpg") no-repeat;
+  background-size: cover;
+
+}
+.transform__avocado{
+  padding-top: 10px;
+  text-align:center;
+}
+.transform__avocado > h1{
+  font-weight: 400;
+  font-size: 2.3em;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+.transform__avocado > p{
+  margin-top: 5px;
+  color: #6c6c6c;
+}
+.transform__avocado > img{
+  width: 500px;
+}
+
+#order-block{
+  background-color: #ECECEC;
+}
+
+.order__avocado{
+  padding-top: 10px;
+  text-align:center;
+}
+
+.order__avocado > h1{
+  font-weight: 400;
+  font-size: 2.3em;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.order{
+  width: 700px;
+  display: flex;
+  margin: 0px auto;
+  padding-top: 60px;
+}
+.order__list:nth-child(3){
+  border-right: 0px;
+}
+.order__list{
+  flex: 1;
+  border-right: 1px solid #ACACAC;
+}
+.order__list > ul{
+  text-align: left;  
+  padding-left: 60px;
+  color: #817f7f;
+  line-height: 1.5em;
+}
+.order__list:nth-child(1) > button{
+  margin-top: 25px;
+}
+
+.order__list > img{
+  margin-top: 50px;
+}
+.color-change{
+  color: #817f7f;
+  font-weight: normal;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  font-size: .7em;
+  color: #817f7f;
+}
+.contact{
+  display: flex;
+  width: 800px;
+  margin: 0px auto;
+}
+.info{
+  flex: 1;
+}
+.contact-info{
+  flex: 1;
+}

@@ -1,0 +1,19 @@
+body{
+  margin: 0px; 
+  font-family: Open Sans;
+}
+
+span{
+  font-weight: bold;
+}
+
+sup{
+  font-weight: normal;
+  font-size: 9px;
+}
+
+small{
+  padding-top: 10px;
+  font-size:.6em;
+  color: #817f7f;
+}

@@ -1,0 +1,21 @@
+button{
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid #027d02;
+  text-align: center;
+  color: #027d02;
+  padding: 4px 25px 4px 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: 5px;
+}
+
+button:hover{
+  color:#ffffff;
+  background-color:#027d02; 
+}
+
+button:active{
+  transform: scale(.9);
+}
